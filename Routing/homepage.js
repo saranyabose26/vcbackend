@@ -137,8 +137,8 @@ homePage.post("/payment", async (req, res) => {
                 }
             ],
             mode: 'payment',
-            success_url: "https://vevicare.netlify.app/PaymentSuccess",
-            cancel_url: "https://vevicare.netlify.app/PaymentCancel"
+            success_url: "https://fabulous-yeot-36196c.netlify.app/PaymentSuccess",
+            cancel_url: "https://fabulous-yeot-36196c.netlify.app/PaymentCancel"
         })
 
         res.send({ message: "Payment success", session });
